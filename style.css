@@ -1,0 +1,105 @@
+/*============= GERAL ==============*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.wrap{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.info{
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+.info h3{
+  padding: 20px 0;
+}
+.info p{
+  margin: 10px 0;
+}
+
+/*============= BANNER E HEADER ==============*/
+header{
+  background-color: white;
+  padding: 20px 80px;
+  width: 100%;
+}
+.banner{
+  color: white;
+  width: 100%;
+  min-height: 500px;
+  background-image: url("img/capa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner p{
+  font-size: 20px;
+  background: #00000085;
+  padding: 50px 20px;
+  text-align: end;
+}
+
+/*============= SOBRE NÓS E GALERIA ==============*/
+.imagem-galeria{
+  width: 250px;
+  height: 180px;
+  object-fit: contain;
+}
+
+.qualidade{
+  margin: 20px 0;
+  padding: 0 10px;
+  border-left: 1px solid #6C0000;
+}
+
+.divisao{
+  width: 100%;
+  text-align: center;
+  background-color: #D92121;
+  padding: 40px 0;
+  margin: 50px 0;
+}
+.divisao h3{
+  font-size: 25px;
+  color: white;
+  background-color: #6C0000;
+}
+
+/*============= FORMULÁRIO ==============*/
+.campo{
+  display: flex;
+  flex-direction: column;
+}
+.campo label{
+  margin: 10px 8px;
+}
+.campo input, .campo select{
+  margin: 12px 0;
+  height: 25px;
+}
+.campo input{
+  padding: 8px 5px;
+  margin: 5px 8px;
+}
+.campo fieldset{
+  margin: 12px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  margin: 10px auto;
+  width: 100%;
+  height: 32px;
+  background: #d92121;
+  border: none;
+  color: #fff;
+}
